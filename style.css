@@ -1,0 +1,42 @@
+body{
+    background: #eee;
+}
+.header{
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header span{
+    padding-right: 20px;
+}
+.header h1{
+    font-weight: normal;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dialog{
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.write{
+    border-bottom: 1px solid #ccc;
+}
+.login{
+    margin-top: 20px;
+}
+.login button{
+    background: limegreen;
+    color: white;
+}
