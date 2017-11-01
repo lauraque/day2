@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 .header span{
-    padding-right: 20px;
+    padding-right: 0px;
 }
 .header h1{
     font-weight: normal;
@@ -31,38 +31,47 @@ body{
     position: relative;
 }
 .dialog{
-    width: 90%;
-    height: 500px;
+    width: 80%;
     background: white;
     border-radius: 10px;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    top: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translate(0,-50%);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+
 }
 .dialog > img{
-    height: 40px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.dialog p{
+    margin-bottom: 50px;
 }
 .write{
     border-bottom: 1px solid #ccc;
+    text-align: left;
+    margin-top: 20px;
 }
 .write img{
-    height: 30px;
+    height: 20px;
+    padding-right: 10px;
 }
 .write input{
     border-width: 0;
 }
 .login{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .login button{
     background: limegreen;
     color: white;
     border-width: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
 }
