@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background: #eee;
     font-size: 14px;
@@ -9,7 +13,6 @@ body{
     line-height: 40px;
     background: #333;
     color: white;
-    font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
     display: -webkit-flex;
@@ -21,11 +24,12 @@ body{
 }
 .header h1{
     font-weight: normal;
+    font-size: 16px;
 }
 .content{
     flex: 1;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 15px;
     padding-bottom: 30px;
     position: relative;
@@ -34,8 +38,8 @@ body{
     background: white;
     border-radius: 10px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,6 +53,9 @@ body{
 }
 .write img{
     height: 30px;
+}
+.write input{
+    border-width: 0;
 }
 .login{
     margin-top: 20px;
